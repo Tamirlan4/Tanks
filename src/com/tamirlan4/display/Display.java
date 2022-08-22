@@ -16,10 +16,16 @@ public abstract class Display {
             return;
         window = new JFrame(title);
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        content = new Canvas();
+        content = new Canvas(){
+            public void paint(Graphics g){
+                super.paint(g);
+                render(g);
+            }
+        };
 
         Dimension size = new Dimension(width,height);
         content.setPreferredSize(size);
+        content.setBackground(Color.BLUE);
 
         window.setResizable(false);
         window.getContentPane().add(content);
@@ -28,4 +34,9 @@ public abstract class Display {
         window.setVisible(true);
     }
 
+    public static void render() {
+        content.repaint();
+    }
+    private static void render(Graphics g){
+    }
 }

@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d52c1970-d82c-4fa8-a501-c8054e25a7ff" name="Changes" comment="Display">
+    <list default="true" id="d52c1970-d82c-4fa8-a501-c8054e25a7ff" name="Changes" comment="Organized files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tamirlan4/display/Display.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tamirlan4/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tamirlan4/display/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tamirlan4/display/Display.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tamirlan4/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tamirlan4/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661154879407</updated>
-      <workItem from="1661154882671" duration="3599000" />
+      <workItem from="1661154882671" duration="10058000" />
     </task>
     <task id="LOCAL-00001" summary="Display">
       <created>1661158514202</created>
@@ -75,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661158514202</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Organized files">
+      <created>1661164714394</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661164714394</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +101,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Display" />
-    <option name="LAST_COMMIT_MESSAGE" value="Display" />
+    <MESSAGE value="Organized files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Organized files" />
   </component>
 </project>
