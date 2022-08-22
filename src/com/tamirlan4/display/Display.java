@@ -1,3 +1,5 @@
+package com.tamirlan4.display;
+
 import javax.swing.*;
 import java.awt.*;
 
