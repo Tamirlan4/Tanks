@@ -38,5 +38,7 @@ public abstract class Display {
         content.repaint();
     }
     private static void render(Graphics g){
+        g.setColor(Color.black);
+        g.fillOval(400-50,300-50,100,100);
     }
 }
