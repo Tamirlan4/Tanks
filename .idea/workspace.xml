@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d52c1970-d82c-4fa8-a501-c8054e25a7ff" name="Changes" comment="Render display">
+    <list default="true" id="d52c1970-d82c-4fa8-a501-c8054e25a7ff" name="Changes" comment="Rendered some elements">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/tamirlan4/display/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tamirlan4/display/Display.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tamirlan4/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tamirlan4/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1661154879407</updated>
       <workItem from="1661154882671" duration="10326000" />
-      <workItem from="1661223902419" duration="1287000" />
+      <workItem from="1661223902419" duration="4927000" />
     </task>
     <task id="LOCAL-00001" summary="Display">
       <created>1661158514202</created>
@@ -90,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661188713722</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Rendered some elements">
+      <created>1661225423308</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661225423309</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +117,7 @@
     <MESSAGE value="Display" />
     <MESSAGE value="Organized files" />
     <MESSAGE value="Render display" />
-    <option name="LAST_COMMIT_MESSAGE" value="Render display" />
+    <MESSAGE value="Rendered some elements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rendered some elements" />
   </component>
 </project>

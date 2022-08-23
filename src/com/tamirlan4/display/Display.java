@@ -2,6 +2,9 @@ package com.tamirlan4.display;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.awt.image.DataBufferInt;
+import java.util.Arrays;
 
 
 public abstract class Display {
@@ -10,7 +13,12 @@ public abstract class Display {
     private static JFrame window;
     private static Canvas content;
 
-    public static void create(int width, int height, String title){
+    private static BufferedImage buffer;
+    private static int[] bufferData;
+    private static Graphics bufferGraphics;
+    private static int clearColor;
+
+    public static void create(int width, int height, String title, int _clearColor){
 
         if (created)
             return;
@@ -32,8 +40,18 @@ public abstract class Display {
         window.pack();
         window.setLocationRelativeTo(null);
         window.setVisible(true);
+
+        buffer = new BufferedImage(width, height , BufferedImage.TYPE_INT_ARGB);
+        bufferData = ( (DataBufferInt) buffer.getRaster().getDataBuffer()).getData();
+        bufferGraphics = buffer.getGraphics();
+        clearColor = _clearColor;
+        created = true;
+
     }
 
+    public static void clear(){
+        Arrays.fill(bufferData, clearColor);
+    }
     public static void render() {
         content.repaint();
     }
